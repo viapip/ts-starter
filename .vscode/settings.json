@@ -1,6 +1,6 @@
 {
   "editor.tabCompletion": "off",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.wrappingStrategy": "advanced",
   "editor.wordWrap": "bounded",
@@ -14,6 +14,8 @@
   "eslint.format.enable": true,
   "eslint.lintTask.enable": true,
   "eslint.packageManager": "yarn",
+
+  "eslint.useFlatConfig": true,
   "eslint.validate": [
     "javascript",
     "typescript",
@@ -48,7 +50,7 @@
   "npm.packageManager": "yarn",
   "typescript.preferences.includePackageJsonAutoImports": "on",
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
