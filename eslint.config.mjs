@@ -1,4 +1,4 @@
-import antfu from '@antfu/eslint-config'
+import viapip from '@viapip/eslint-config'
 
-const config = await antfu()
+const config = await viapip()
 export default config
